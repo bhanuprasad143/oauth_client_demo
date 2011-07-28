@@ -15,7 +15,7 @@ class OauthConsumersController < ApplicationController
   # example of 3-legged API call
   def resources
     response = @token.client.get("/api/v1/photos.json")
-    response = @token.client.post("/api/v1/blog_posts.json", "title" => "A New Biology Book", "body" => "Michael Cain (Units 4 and 5) is an ecologist and evolutionary biologist who is now writing full time.", "tags" => "biology")
+    #response = @token.client.post("/api/v1/blog_posts.json", "title" => "A New Biology Book", "body" => "Michael Cain (Units 4 and 5) is an ecologist and evolutionary biologist who is now writing full time.", "tags" => "biology")
     render :json => response.body
   end
 
