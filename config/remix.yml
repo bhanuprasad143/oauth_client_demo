@@ -1,0 +1,12 @@
+development: &defaults
+  key:
+  secret:
+
+test:
+  key:
+  secret:
+
+production:
+  key:
+  secret:
+

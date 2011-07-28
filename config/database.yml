@@ -1,0 +1,17 @@
+database: &DATABASE
+  adapter: mysql
+  password:
+  username: root
+
+development:
+  <<: *DATABASE
+  database: testapi_development
+
+production:
+  <<: *DATABASE
+  database: testapi_production
+
+test:
+  <<: *DATABASE
+  database: testapi_test
+

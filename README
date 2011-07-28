@@ -1,0 +1,3 @@
+This is a sample OAuth Consummer app which I use for my testing purpose.
+Please change the API key and secret in config/remix.yml or set your environment parameters if this app is deployed on Heroku.
+
